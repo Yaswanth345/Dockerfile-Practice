@@ -1,3 +1,3 @@
 FROM almalinux
 RUN yum install nginx -y
-ADD sample.txt /tmp/
+ONBUILD ADD sample.txt /tmp/
